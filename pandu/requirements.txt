@@ -1,0 +1,9 @@
+SpeechRecognition>=3.10.1
+PyAudio>=0.2.14
+gTTS>=2.5.4
+pygame>=2.5.2
+spacy>=3.7.4
+requests>=2.31.0
+pystray>=0.19.5
+Pillow>=10.2.0
+PyYAML>=6.0.1

@@ -1,0 +1,26 @@
+# Pandu Configuration File
+
+assistant:
+  name: "Pandu"
+  language: "en"
+  # Set up your preferred wake word engine if you want later, this uses keyword matching for now
+  wake_word: "pandu"
+
+skills:
+  weather:
+    # Get your API key from https://openweathermap.org/
+    # For now, we will use a placeholder
+    api_key: "YOUR_OPENWEATHERMAP_API_KEY_HERE"
+    default_city: "London"
+
+  browser:
+    default_engine: "google" # OR bing, duckduckgo
+
+  gemini:
+    # Enter your Google Gemini API key here
+    api_key: "AIzaSyDBSe21juwHzjEOfutgpLFLC9uD3H2EHhc"
+
+logging:
+  level: "INFO" # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file: "pandu.log"
+

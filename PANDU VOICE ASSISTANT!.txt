@@ -1,0 +1,23 @@
+PANDU VOICE ASSISTANTA!
+
+To run your Pandu Voice Assistant application, you can use the following commands in your terminal (Command Prompt or PowerShell).....
+
+1st cmnd --  cd "c:\Users\pavan\OneDrive\Desktop\voice assist\pandu"
+
+#application directory
+
+
+2nd cmnd --  .\venv\Scripts\activate
+
+#Activate the Virtual Environment
+
+3rd cmnd --  pip install -r requirements.txt
+
+#Install Dependencies (optional, run this if you haven't installed them yet or added new ones)
+
+4th cmnd -- python main.py
+
+#Run the Application
+
+
+The application will start and place an icon in your system tray (bottom right of your screen). It will listen for the wake word in the background.
